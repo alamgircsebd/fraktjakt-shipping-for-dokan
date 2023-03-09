@@ -1,6 +1,6 @@
 {
 	"name": "fraktjakt-shipping-for-dokan",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Fraktjakt shipping method plugin for Dokan WooCommerce Multivendor. Integrates several shipping services through Fraktjakt.",
 	"main": "Gruntfile.js",
 	"scripts": {
