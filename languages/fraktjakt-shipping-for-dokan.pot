@@ -1,0 +1,708 @@
+# Copyright (C) 2023 Fraktjakt
+# This file is distributed under the GPL v2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fraktjakt Shipping Method for Dokan 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/fraktjakt-shipping-for-dokan\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-03-09T18:41:37+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: fraktjakt-shipping-for-dokan\n"
+
+#. Plugin Name of the plugin
+msgid "Fraktjakt Shipping Method for Dokan"
+msgstr ""
+
+#. Description of the plugin
+msgid "Fraktjakt shipping method plugin for Dokan WooCommerce Multivendor. Integrates several shipping services through Fraktjakt."
+msgstr ""
+
+#. Author of the plugin
+#: inc/hooks.php:57
+#: inc/hooks.php:105
+#: inc/hooks.php:174
+#: inc/settings.php:140
+msgid "Fraktjakt"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://fraktjakt.com/"
+msgstr ""
+
+#: inc/functions.php:440
+msgid "Dokan Fraktjakt"
+msgstr ""
+
+#: inc/functions.php:524
+msgid "Fraktjakt [WARNING]"
+msgstr ""
+
+#: inc/functions.php:524
+msgid " products are missing weight or volume: "
+msgstr ""
+
+#: inc/functions.php:555
+msgid "Control mode"
+msgstr ""
+
+#: inc/functions.php:560
+msgid "Customer controlled shipping"
+msgstr ""
+
+#: inc/functions.php:561
+msgid "Merchant controlled shipping"
+msgstr ""
+
+#: inc/functions.php:563
+msgid "Choose whether it's the customer or the merchant who makes the shipping decision.<br>The settings under Shipping alternatives are only applicable to \"Customer controlled shipping\""
+msgstr ""
+
+#: inc/functions.php:568
+msgid "Auto process"
+msgstr ""
+
+#: inc/functions.php:573
+msgid "No"
+msgstr ""
+
+#: inc/functions.php:574
+msgid "Processing"
+msgstr ""
+
+#: inc/functions.php:575
+msgid "Completed"
+msgstr ""
+
+#: inc/functions.php:577
+msgid "Choose which order status to automatically process and create shipments for.<br>If Manual is selected, then no orders will be processed automatically and you can select which orders to send over to Fraktjakt manually."
+msgstr ""
+
+#: inc/functions.php:583
+#: templates/settings/fraktjakt.php:40
+#: templates/settings/fraktjakt.php:42
+msgid "Reference prefix"
+msgstr ""
+
+#: inc/functions.php:584
+msgid "Specify a text to prefix the order reference below."
+msgstr ""
+
+#: inc/functions.php:589
+msgid "Order reference"
+msgstr ""
+
+#: inc/functions.php:594
+msgid "Order number"
+msgstr ""
+
+#: inc/functions.php:595
+msgid "Customer note"
+msgstr ""
+
+#: inc/functions.php:597
+msgid "Select how to reference shipments to your WooCommerce orders."
+msgstr ""
+
+#: inc/functions.php:601
+msgid "Tracking link in email"
+msgstr ""
+
+#: inc/functions.php:603
+msgid "Add tracking link to your customer emails."
+msgstr ""
+
+#: inc/functions.php:605
+msgid "The appearance of the button can be styled with the CSS class tracking_button."
+msgstr ""
+
+#: inc/functions.php:610
+msgid "Operation Mode"
+msgstr ""
+
+#: inc/functions.php:613
+msgid "Select which server environment to use. Requires a registered account on the chosen server."
+msgstr ""
+
+#: inc/functions.php:616
+msgid "Production"
+msgstr ""
+
+#: inc/functions.php:617
+msgid "Test"
+msgstr ""
+
+#: inc/functions.php:623
+#: templates/settings/fraktjakt.php:73
+msgid "Shipping alternatives in customer controlled shipping"
+msgstr ""
+
+#: inc/functions.php:625
+#: templates/settings/fraktjakt.php:74
+msgid "Choose which information to display about each shipping alternative in the shipping calculator, cart and checkout."
+msgstr ""
+
+#: inc/functions.php:629
+msgid "Shipping company"
+msgstr ""
+
+#: inc/functions.php:630
+msgid "Display shipping company names"
+msgstr ""
+
+#: inc/functions.php:636
+#: inc/hooks.php:407
+#: inc/hooks.php:411
+msgid "Shipping agent"
+msgstr ""
+
+#: inc/functions.php:637
+msgid "Display Agent for package retrieval by the customer"
+msgstr ""
+
+#: inc/functions.php:642
+#: templates/settings/fraktjakt.php:77
+#: templates/settings/fraktjakt.php:79
+msgid "Home delivery title"
+msgstr ""
+
+#: inc/functions.php:645
+msgid "Only shipping products which include Door-to-Door delivery will display this text.  <br>Displayed in the shipping alternatives customers see in the cart and in checkout."
+msgstr ""
+
+#: inc/functions.php:646
+msgid "Door-to-Door delivery"
+msgstr ""
+
+#: inc/functions.php:649
+msgid "Estimated delivery time"
+msgstr ""
+
+#: inc/functions.php:651
+msgid "Display Fraktjakts estimated delivery time info"
+msgstr ""
+
+#: inc/functions.php:656
+msgid "Agent selection"
+msgstr ""
+
+#: inc/functions.php:658
+msgid "Enable agent selection during checkout."
+msgstr ""
+
+#: inc/functions.php:660
+msgid "Activate to allow your customers to change their prefered shipping agent through a link during checkout."
+msgstr ""
+
+#: inc/functions.php:664
+msgid "Agent selection in email"
+msgstr ""
+
+#: inc/functions.php:666
+msgid "Enable agent selection in email."
+msgstr ""
+
+#: inc/functions.php:668
+msgid "Activate to allow your customers to change their prefered shipping agent from an email link before you book the shipment."
+msgstr ""
+
+#: inc/functions.php:673
+msgid "Currency conversion"
+msgstr ""
+
+#: inc/functions.php:678
+msgid "Convert shipping costs to your selected currency"
+msgstr ""
+
+#: inc/functions.php:679
+msgid "Always present shipping costs in SEK"
+msgstr ""
+
+#: inc/functions.php:680
+msgid "Always present shipping costs in EUR"
+msgstr ""
+
+#: inc/functions.php:682
+msgid "Choose if you want Fraktjakt to automatically convert the shipping costs to your chosen currency in WooCommerce or if prices should always be shown in a fixed currency value. What currency symbol is used depends on your WooCommerce setting."
+msgstr ""
+
+#: inc/functions.php:686
+msgid "No calculation outside checkout"
+msgstr ""
+
+#: inc/functions.php:688
+msgid "Skip shipping calculation outside cart and checkout."
+msgstr ""
+
+#: inc/functions.php:690
+msgid "Activate to optimize performance by skipping WooCommerce built-in shipping calculation when outside cart and checkout."
+msgstr ""
+
+#: inc/functions.php:696
+msgid "Debugging and fallback options"
+msgstr ""
+
+#: inc/functions.php:698
+msgid "Set up fallback shipping options and email debug information if any error occurs."
+msgstr ""
+
+#: inc/functions.php:703
+msgid "Fallback service"
+msgstr ""
+
+#: inc/functions.php:705
+msgid "This text is shown together with a Fallback price when the webshop does not receive a prompt response from Fraktjakt, <br>for instance, when there is a communications problem over the internet."
+msgstr ""
+
+#: inc/functions.php:706
+msgid "Standard shipping"
+msgstr ""
+
+#: inc/functions.php:709
+msgid "Fallback price"
+msgstr ""
+
+#: inc/functions.php:712
+msgid "The price that is shown together with the fallback text (above)."
+msgstr ""
+
+#: inc/functions.php:717
+msgid "Admin email address"
+msgstr ""
+
+#: inc/functions.php:719
+msgid "Error messages from the Fraktjakt Shipping Method will be sent to this email address."
+msgstr ""
+
+#: inc/functions.php:722
+msgid "Debug mode"
+msgstr ""
+
+#: inc/functions.php:724
+msgid "Enable the Fraktjakt debug mode to track down products missing weight or volume.<br />Initiates a search when you press the save button below. Changing settings requires you to first refresh the page.<br /><b>Important!</b> Please deactive before launching, since this action may significantly slow down your server."
+msgstr ""
+
+#: inc/functions.php:752
+msgid "Failed authentication"
+msgstr ""
+
+#: inc/functions.php:766
+msgid "Fraktjakt Shipping Method [ERROR]"
+msgstr ""
+
+#: inc/functions.php:911
+msgid "Failed to retrieve shipping options"
+msgstr ""
+
+#: inc/functions.php:968
+msgid "Agent"
+msgstr ""
+
+#: inc/functions.php:989
+msgid "Arrival Time"
+msgstr ""
+
+#: inc/functions.php:1009
+#: inc/functions.php:1019
+#: inc/functions.php:1032
+#: inc/functions.php:1053
+msgid "Warning"
+msgstr ""
+
+#: inc/functions.php:1040
+msgid "This is an automated error message from your WooCommerce integration."
+msgstr ""
+
+#: inc/functions.php:1041
+msgid "Webshop"
+msgstr ""
+
+#: inc/functions.php:1042
+msgid "Method"
+msgstr ""
+
+#: inc/functions.php:1043
+msgid "Function"
+msgstr ""
+
+#: inc/functions.php:1046
+msgid "Reason"
+msgstr ""
+
+#: inc/functions.php:1046
+msgid "Missing response.  Using the FALLBACK method."
+msgstr ""
+
+#: inc/functions.php:1050
+msgid "Status"
+msgstr ""
+
+#: inc/functions.php:1057
+#: inc/functions.php:1059
+msgid "Error"
+msgstr ""
+
+#: inc/functions.php:1063
+msgid "Returned shipping options"
+msgstr ""
+
+#: inc/functions.php:1068
+msgid "Cart items"
+msgstr ""
+
+#: inc/functions.php:1090
+msgid "Destination"
+msgstr ""
+
+#: inc/functions.php:1090
+msgid "Postal code"
+msgstr ""
+
+#: inc/functions.php:1091
+msgid "Country"
+msgstr ""
+
+#: inc/functions.php:1093
+msgid "Fallback"
+msgstr ""
+
+#: inc/functions.php:1093
+msgid "Title"
+msgstr ""
+
+#: inc/functions.php:1094
+msgid "Price"
+msgstr ""
+
+#: inc/functions.php:1096
+msgid "Time"
+msgstr ""
+
+#: inc/functions.php:1099
+#: templates/settings/fraktjakt.php:53
+#: templates/settings/fraktjakt.php:55
+msgid "Consignor ID"
+msgstr ""
+
+#: inc/functions.php:1100
+msgid "Server"
+msgstr ""
+
+#: inc/functions.php:1110
+msgid "Query"
+msgstr ""
+
+#: inc/functions.php:1115
+#: inc/functions.php:1120
+msgid "Response"
+msgstr ""
+
+#: inc/functions.php:1117
+msgid "Array"
+msgstr ""
+
+#: inc/functions.php:1120
+msgid "Missing response"
+msgstr ""
+
+#: inc/functions.php:1124
+msgid "Error message from Fraktjakt WooCommerce plugin."
+msgstr ""
+
+#: inc/functions.php:1133
+msgid "Debug info"
+msgstr ""
+
+#: inc/functions.php:1147
+msgid "Shipping calculation error"
+msgstr ""
+
+#: inc/functions.php:1425
+msgid "Error:"
+msgstr ""
+
+#: inc/helper.php:35
+msgid "Book Search"
+msgstr ""
+
+#: inc/helper.php:36
+msgid "Search"
+msgstr ""
+
+#: inc/hooks.php:61
+#: inc/hooks.php:141
+#: inc/hooks.php:240
+#: inc/hooks.php:306
+msgid "Trace shipment"
+msgstr ""
+
+#: inc/hooks.php:61
+#: inc/hooks.php:141
+#: inc/hooks.php:240
+msgid "Trace the shipment"
+msgstr ""
+
+#: inc/hooks.php:111
+#: inc/hooks.php:126
+#: inc/hooks.php:210
+#: inc/hooks.php:225
+#: inc/hooks.php:294
+#: inc/hooks.php:297
+msgid "Manage shipment"
+msgstr ""
+
+#: inc/hooks.php:111
+#: inc/hooks.php:210
+msgid "Manage the order in Fraktjakt"
+msgstr ""
+
+#: inc/hooks.php:126
+#: inc/hooks.php:225
+msgid "Manage the shipment in Fraktjakt"
+msgstr ""
+
+#: inc/hooks.php:154
+#: inc/hooks.php:253
+msgid "Order connection missing"
+msgstr ""
+
+#: inc/hooks.php:155
+#: inc/hooks.php:254
+msgid "Create order connection"
+msgstr ""
+
+#: inc/hooks.php:155
+#: inc/hooks.php:254
+#: inc/hooks.php:318
+msgid "Create order connection to Fraktjakt"
+msgstr ""
+
+#: inc/hooks.php:388
+#: inc/hooks.php:391
+msgid "Follow the shipment"
+msgstr ""
+
+#: inc/hooks.php:389
+#: inc/hooks.php:392
+msgid "Track your package"
+msgstr ""
+
+#: inc/hooks.php:403
+msgid "Select shipping agent"
+msgstr ""
+
+#: inc/hooks.php:409
+#: inc/hooks.php:414
+msgid "If you need to change the selected shipping agent, then please do so before the shipment is created."
+msgstr ""
+
+#: inc/hooks.php:445
+msgid "Change shipping agent"
+msgstr ""
+
+#: inc/scripts.php:120
+msgid "Sometings wrong! try again later"
+msgstr ""
+
+#: inc/settings.php:76
+msgid "You have no permission to view this page"
+msgstr ""
+
+#: inc/settings.php:104
+msgid "Fraktjakt Settings"
+msgstr ""
+
+#: inc/settings.php:122
+msgid "Fraktjakt profiles help you to gain more trust."
+msgstr ""
+
+#: plugin-loader.php:173
+#: admin-core/assets/build/settings.js:1
+msgid "Settings"
+msgstr ""
+
+#: templates/settings/fraktjakt.php:34
+msgid "Register your"
+msgstr ""
+
+#: templates/settings/fraktjakt.php:34
+msgid "free account on Fraktjakt"
+msgstr ""
+
+#: templates/settings/fraktjakt.php:34
+msgid "for Consignor ID & Key"
+msgstr ""
+
+#: templates/settings/fraktjakt.php:37
+#: admin-core/assets/build/settings.js:1
+msgid "General"
+msgstr ""
+
+#: templates/settings/fraktjakt.php:46
+msgid "Authentication"
+msgstr ""
+
+#: templates/settings/fraktjakt.php:48
+msgid "Enter your Consignor ID and key from your Fraktjakt integration to connect this extension to your Fraktjakt account."
+msgstr ""
+
+#: templates/settings/fraktjakt.php:49
+msgid "Direct link to Fraktjakt PROD API webshop settings"
+msgstr ""
+
+#: templates/settings/fraktjakt.php:60
+#: templates/settings/fraktjakt.php:62
+msgid "Consignor Key"
+msgstr ""
+
+#: templates/settings/fraktjakt.php:67
+msgid "(Integrator code)"
+msgstr ""
+
+#: templates/settings/fraktjakt.php:69
+msgid "Integrator code"
+msgstr ""
+
+#: templates/settings/fraktjakt.php:80
+msgid "Only shipping products which include Door-to-Door delivery will display this text. Displayed in the shipping alternatives customers see in the cart and in checkout."
+msgstr ""
+
+#: templates/settings/fraktjakt.php:88
+msgid "Update Settings"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Successfully saved!"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Close"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Notification"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Page per limit"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Set books listing page per limit."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Default: 10"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Books ordering (By Entry Date)"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Choose a books ordering."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "ASC"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "DESC"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Select Option"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Choose a option multiple or single for Publisher and Author."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Single"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Multiple"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Currency"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Set currency for book price."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Default value: $"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Text Localizations"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Main title"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Set main title above search form."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Default value: Book Search"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Button label"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Set button label for search form."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Default value: Search"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Select Color"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Reset"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Colors"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Primary color"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Choose color for primary color."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Primary text color"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Choose color for primary text color."
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "General Settings"
+msgstr ""
+
+#: admin-core/assets/build/settings.js:1
+msgid "Styling"
+msgstr ""

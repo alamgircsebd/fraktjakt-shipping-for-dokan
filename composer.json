@@ -1,0 +1,20 @@
+{
+  "name": "alamgircsebd/fraktjakt-shipping-for-dokan",
+  "description": "Fraktjakt shipping method plugin for Dokan WooCommerce Multivendor. Integrates several shipping services through Fraktjakt.",
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^3.5",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+    "phpcompatibility/php-compatibility": "^9.3",
+    "wp-coding-standards/wpcs": "^2.2"
+  },
+  "scripts": {
+    "format": "vendor/bin/phpcbf",
+    "lint": "vendor/bin/phpcs",
+    "test": "vendor/bin/phpunit"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}
