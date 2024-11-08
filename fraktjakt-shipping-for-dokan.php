@@ -4,7 +4,7 @@
  * Description: Fraktjakt shipping method plugin for Dokan WooCommerce Multivendor. Integrates several shipping services through Fraktjakt.
  * Author: Fraktjakt
  * Author URI: https://fraktjakt.com/
- * Version: 1.0.1
+ * Version: 1.0.12
  * License: GPL v2
  * Text Domain: fraktjakt-shipping-for-dokan
  *
